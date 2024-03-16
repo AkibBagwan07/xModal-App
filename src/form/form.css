@@ -1,0 +1,27 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    position: fixed;
+    top: 100px;
+    left: 470px;
+  }
+  .modal-content {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    padding: 50px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+  }
+  
+  #email,
+  #phone,
+  #username,
+  #dob {
+    margin-bottom: 16px;
+    width: 200px;
+    border-radius: 5px;
+  }
+  
