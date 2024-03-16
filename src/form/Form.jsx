@@ -44,6 +44,8 @@ export default function Form() {
             //  localStorage.setItem("phone",info.phone)
             //  localStorage.setItem("Dob",info.dob)
            }}>
+            
+           <h2>Fill Details</h2> <br />
           <label htmlFor="username">Username:</label> <br />
           <input
            value={info.username}

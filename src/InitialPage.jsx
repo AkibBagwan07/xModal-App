@@ -13,7 +13,7 @@ export default function InitialPage() {
     <div className="App" onClick={()=>{
       handleShow()
     }}>
-      <h2>Form Details</h2>
+      <h2>User Details Modal</h2>
       <button onClick={handleShow} className="Btn">
         Open Form
       </button>
